@@ -7,6 +7,7 @@ class Triangle
   end 
   
   def kind 
-    if @left + @right >
+    if @left == @right && @bottom
+      
   end 
 end
