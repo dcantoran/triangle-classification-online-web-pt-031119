@@ -8,6 +8,9 @@ class Triangle
   
   def kind 
     if @left == @right && @bottom
+      :equilateral 
+    elsif 
       
+    end 
   end 
 end
