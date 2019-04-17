@@ -17,7 +17,7 @@ class Triangle
     
     if @right <= 0 || @left <= 0 || @bottom <= 0 
       raise TriangleError
-    elsif @left + @right <= @bottom || @left + @bottom <= @right || @right + @bottom <= @left 
+    elsif @left + @right <= @bottom || @left + @bottom <= @right
       raise TriangleError
     end 
     
