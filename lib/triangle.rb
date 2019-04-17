@@ -12,13 +12,13 @@ class Triangle
       raise TriangleError
     elsif @left + @right <= @bottom || @left + @bottom <= @right || @right + @bottom <= @left 
       raise TriangleError
+      
       elsif @left == @right && @left == @bottom
         :equilateral 
       elsif @left == @right || @right == @bottom ||   @left == @bottom
         :isosceles 
       elsif @left != @right && @right != @bottom
         :scalene
-      end 
     end 
     
   end
