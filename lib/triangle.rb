@@ -17,7 +17,7 @@ class Triangle
         :equilateral 
       elsif @left == @right || @right == @bottom ||   @left == @bottom
         :isosceles 
-      elsif @left != @right && @right != @bottom
+      elsif @left != @right && @left != @bottom
         :scalene
     end 
     
