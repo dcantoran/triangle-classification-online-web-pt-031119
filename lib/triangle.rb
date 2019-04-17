@@ -14,5 +14,15 @@ class Triangle
     elsif @left != @right && @right != @bottom
       :scalene
     end 
-  end 
+    
+    if @left,@right,@bottom <= 0 
+      raise TriangleError
+    end 
+    
+  end
+  
+  class TriangleError < StandardError
+    
+  end
+  
 end
