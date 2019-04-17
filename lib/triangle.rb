@@ -15,7 +15,7 @@ class Triangle
       :scalene
     end 
     
-    if @left,@right,@bottom <= 0 
+    if @left && @right &&@bottom <= 0 
       raise TriangleError
     end 
     
