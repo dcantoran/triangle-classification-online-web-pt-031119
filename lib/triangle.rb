@@ -6,4 +6,8 @@ class Triangle
     @right = right 
     @bottom = bottom
   end 
+  
+  def kind 
+    
+  end 
 end
